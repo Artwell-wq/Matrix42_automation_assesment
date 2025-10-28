@@ -1,0 +1,61 @@
+# Git Ignore file for a standard Java/Maven/Playwright project
+
+### Maven and Build Artifacts ###
+
+/target/
+
+# Resulting artifact (JAR, WAR, etc.)
+
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+
+# TestNG output directory (may be placed in 'target')
+
+/test-output/
+
+### Playwright Artifacts ###
+
+# Playwright-generated test report (often placed in the project root or test-output)
+
+/playwright-report/
+
+# Playwright trace files
+
+/traces/
+
+### IDE Folders and Files ###
+
+# IntelliJ IDEA
+
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Eclipse
+
+.classpath
+.project
+.settings/
+*.log
+
+### Operating System Files ###
+
+# macOS
+
+.DS_Store
+
+# Windows
+
+Thumbs.db
+
+### Log Files ###
+
+*.log
+# Allure artifacts
+allure-results/
+allure-report/
+
